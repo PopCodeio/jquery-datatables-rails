@@ -19,9 +19,9 @@ var factory = function( $, DataTable ) {
 /* Set the defaults for DataTables initialisation */
 $.extend( true, DataTable.defaults, {
 	dom:
-		"<'row'<'col-xs-6'l><'col-xs-6'f>r>"+
+		"<'row-fluid'<'col-xs-6'l><'col-xs-6'f>r>"+
 		"t"+
-		"<'row'<'col-xs-6'i><'col-xs-6'p>>",
+		"<'row-fluid'<'col-xs-6'i><'col-xs-6'p>>",
 	renderer: 'bootstrap'
 } );
 

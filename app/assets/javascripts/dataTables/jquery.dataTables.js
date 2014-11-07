@@ -13946,8 +13946,8 @@
 		"sPageButtonDisabled": "ui-state-disabled",
 	
 		/* Features */
-		"sPaging": "dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi "+
-			"ui-buttonset-multi paging_", /* Note that the type is postfixed */
+		"sPaging": "dataTables_paginate pagination_button "+
+			"paging_", /* Note that the type is postfixed */
 	
 		/* Sorting */
 		"sSortAsc":            _stateDefault+" sorting_asc",
